@@ -20,8 +20,8 @@
     "production": {
       "presets": [
         "@babel/react",
-        [ "@babel/env" ],
-        "minify"
+        [ "@babel/env" ]
+        // "minify"
       ],
       "plugins": [
         "@babel/plugin-proposal-object-rest-spread",
